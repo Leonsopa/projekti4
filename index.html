@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#personality">My Personality</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="personality">
+        <div class="intro">
+            <h1>About Me</h1>
+            <p>I am Leon Sopa ;passionate, creative, and always eager to learn.</p>
+            <div class="personality-traits">
+                <h3>My Personality</h3>
+                <ul>
+                    <li>Leader</li>
+                    <li>Curious</li>
+                    <li>Problem Solver</li>
+                    <li>Adaptable</li>
+                    <li>Detail-Oriented</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="maxresdefault.jpg" alt="Project 1">
+                <div class="overlay">
+                    <h3>Project 1</h3>
+                    <p>Todo list APP</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="projekti2.png" alt="Project 2">
+                <div class="overlay">
+                    <h3>Project 2</h3>
+                    <p>Figma Design</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="search.png" alt="Project 3">
+                <div class="overlay">
+                    <h3>Project 3</h3>
+                    <p>Search Bar</p>
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
